@@ -1,9 +1,9 @@
 :root {
-  --color-bg: #050816;
-  --color-bg-alt: #0b1020;
-  --color-card: #10172a;
-  --color-accent: #22c55e;
-  --color-accent-soft: rgba(34, 197, 94, 0.15);
+  --color-bg: #140408;
+  --color-bg-alt: #1b0a10;
+  --color-card: #1f0e14;
+  --color-accent: #ef4444;
+  --color-accent-soft: rgba(239, 68, 68, 0.16);
   --color-text: #e5e7eb;
   --color-text-muted: #9ca3af;
   --color-border: #1f2937;
@@ -26,7 +26,7 @@ body {
   font-family: "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
   color: var(--color-text);
-  background: radial-gradient(circle at top left, #1e293b 0, #020617 55%);
+  background: radial-gradient(circle at top left, #3f1b23 0, #020617 55%);
   scroll-behavior: smooth;
 }
 
@@ -80,14 +80,14 @@ a {
   width: 34px;
   height: 34px;
   border-radius: 12px;
-  background: radial-gradient(circle at 20% 0, #4ade80, #16a34a 40%, #22c55e);
+  background: radial-gradient(circle at 20% 0, #fecaca, #dc2626 40%, #ef4444);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
   font-size: 15px;
   color: #020617;
-  box-shadow: 0 12px 30px rgba(34, 197, 94, 0.45);
+  box-shadow: 0 12px 30px rgba(248, 113, 113, 0.5);
 }
 
 .logo-text {
@@ -128,7 +128,7 @@ a {
   width: 0;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(to right, #4ade80, #22c55e);
+  background: linear-gradient(to right, #f97373, #ef4444);
   transition: width 0.22s ease-out;
 }
 
@@ -203,8 +203,8 @@ a {
   width: 8px;
   height: 8px;
   border-radius: 999px;
-  background: radial-gradient(circle at 30% 0, #bbf7d0, #22c55e);
-  box-shadow: 0 0 0 6px rgba(34, 197, 94, 0.23);
+  background: radial-gradient(circle at 30% 0, #fecaca, #ef4444);
+  box-shadow: 0 0 0 6px rgba(248, 113, 113, 0.4);
 }
 
 .hero h1 {
@@ -242,14 +242,14 @@ a {
 }
 
 .btn.primary {
-  background: linear-gradient(135deg, #4ade80, #22c55e);
+  background: linear-gradient(135deg, #f97373, #ef4444);
   color: #020617;
-  box-shadow: 0 14px 32px rgba(34, 197, 94, 0.38);
+  box-shadow: 0 14px 32px rgba(248, 113, 113, 0.55);
 }
 
 .btn.primary:hover {
   transform: translateY(-1px);
-  box-shadow: 0 20px 40px rgba(34, 197, 94, 0.5);
+  box-shadow: 0 20px 40px rgba(248, 113, 113, 0.75);
 }
 
 .btn.ghost {
@@ -259,7 +259,7 @@ a {
 }
 
 .btn.ghost:hover {
-  border-color: #4ade80;
+  border-color: var(--color-accent);
   color: #e5e7eb;
 }
 
@@ -292,8 +292,8 @@ a {
   position: absolute;
   inset: -80px;
   background:
-    radial-gradient(circle at 10% 0, rgba(56, 189, 248, 0.12), transparent 55%),
-    radial-gradient(circle at 90% 100%, rgba(74, 222, 128, 0.25), transparent 55%);
+    radial-gradient(circle at 10% 0, rgba(248, 113, 113, 0.16), transparent 55%),
+    radial-gradient(circle at 90% 100%, rgba(127, 29, 29, 0.5), transparent 55%);
   opacity: 0.9;
   pointer-events: none;
 }
@@ -330,7 +330,7 @@ a {
   width: 82px;
   height: 82px;
   border-radius: 999px;
-  background: radial-gradient(circle at 30% 0, #bbf7d0, #22c55e);
+  background: radial-gradient(circle at 30% 0, #fecaca, #ef4444);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -340,8 +340,8 @@ a {
   font-size: 12px;
   font-weight: 700;
   text-align: center;
-  color: #022c22;
-  box-shadow: 0 20px 40px rgba(34, 197, 94, 0.55);
+  color: #450a0a;
+  box-shadow: 0 20px 40px rgba(248, 113, 113, 0.7);
 }
 
 .section {
@@ -373,7 +373,7 @@ a {
   width: 44px;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(to right, #4ade80, transparent);
+  background: linear-gradient(to right, #ef4444, transparent);
 }
 
 .two-column {
@@ -445,9 +445,9 @@ a {
   font-size: 11px;
   padding: 4px 10px;
   border-radius: var(--radius-pill);
-  background: rgba(34, 197, 94, 0.12);
-  color: #bbf7d0;
-  border: 1px solid rgba(74, 222, 128, 0.6);
+  background: rgba(239, 68, 68, 0.14);
+  color: #fecaca;
+  border: 1px solid rgba(248, 113, 113, 0.7);
 }
 
 .schedule-table-wrapper {
@@ -499,7 +499,7 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 14px;
-  background: linear-gradient(135deg, #4ade80, #22c55e);
+  background: linear-gradient(135deg, #f97373, #ef4444);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -507,7 +507,7 @@ a {
     "Segoe UI", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: #020617;
+  color: #450a0a;
 }
 
 .player-name {
@@ -540,7 +540,7 @@ a {
 }
 
 .contact-mail a {
-  color: #a5b4fc;
+  color: #fecaca;
 }
 
 .contact-form {
@@ -577,8 +577,8 @@ a {
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #4ade80;
-  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.5);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.6);
 }
 
 .form-note {
